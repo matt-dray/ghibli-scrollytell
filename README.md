@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-[Click to see a live version of the document.](https://www.matt-dray.github.io/ghibli-scrollytell)
+[Click to see a live version of the document.](https://matt-dray.github.io/ghibli-scrollytell/)
 
 This is a simple test of [Russell Goldenberg](https://twitter.com/codenberg)'s [Scrollama JavaScript library](https://github.com/russellgoldenberg/scrollama) for scrollytelling, implemented via [Yihui Xie](https://yihui.org/)'s [{rolldown} package for R](https://github.com/yihui/rolldown).
 
