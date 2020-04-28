@@ -1,6 +1,6 @@
 ---
 title: "Ranking Studio Ghibli films"
-author: "Matt Dray / `r format(Sys.Date(), '%d %B %Y')`"
+author: "Work in progress | Matt Dray | `r format(Sys.Date(), '%d %B %Y')`"
 output:
   rolldown::scrollama_sidebar:
     number_sections: false
@@ -60,7 +60,7 @@ body {
 
 I've now seen all of Studio Ghibli's films thanks to a recent Ghiblavanganza on Netflix in the UK. 
 
-Opinions change like, so I have a five-tier list and a tentative top-five ranking in the top tier.
+I have a five-tier list and a tentative top-five ranking in the top tier. Opinions subject to sudden and drastic change.
 
 # D
 
