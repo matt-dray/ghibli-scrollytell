@@ -1,0 +1,117 @@
+---
+title: "Ranking Studio Ghibli films"
+author: "Matt Dray / `r format(Sys.Date(), '%d %B %Y')`"
+output:
+  rolldown::scrollama_sidebar:
+    number_sections: false
+---
+
+```{css, echo=FALSE}
+/* didact-gothic-regular - latin */
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/didact-gothic-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'),
+       url('../fonts/didact-gothic-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/didact-gothic-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/didact-gothic-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/didact-gothic-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/didact-gothic-v13-latin-regular.svg#DidactGothic') format('svg'); /* Legacy iOS */
+}
+
+a:link, a:visited, a:active {
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+body, h1, h2, h3 {
+  font-family: 'Didact Gothic', sans;
+  color: #000;
+}
+
+h1 { color: #FFF; }
+
+.level1 {
+  min-height: 400px;
+  /* border: 1px solid; */
+  margin-bottom: 4em;
+  padding: 1em 2em 2em;
+  opacity: .25;
+}
+  
+.is-active {
+  opacity: 1;
+  /* background-color: #f8f8f8; */
+}
+
+body {
+  margin-bottom: 80vh;
+  background: #00A6EF;
+}
+```
+
+# Introduction
+
+I've now seen all of Studio Ghibli's films thanks to a recent Ghiblavanganza on Netflix in the UK. 
+
+Opinions change like, so I have a five-tier list and a tentative top-five ranking in the top tier.
+
+# D
+
+I could go without seeing these again.
+
+* _Ocean Waves_
+* _Only Yesterday_
+* _Tales from Earthsea_
+* _The Cat Returns_
+
+# C
+
+Solid or interesting.
+
+* _Howl's Moving Castle_
+* _My Neighbours the Yamadas_
+* _Nauscaä_
+* _Pom Poko_
+
+# B
+
+A little more captivating.
+
+* _Arrietty_
+* _Laputa_
+* _Marnie_
+* _Whisper of the Heart_
+
+# A
+
+This tier exists because I can't squeeze _everything_ into the top five.
+
+* _Grave of the Fireflies_
+* _My Neighbour Totoro_
+* _From Up On Poppy Hill_
+* _The Wind Rises_
+
+# S
+
+# 5. _Porco Rosso_
+
+# 4. _Spirited Away_
+
+# 3. _Ponyo_
+
+# 2. _Princess Mononoke_
+
+# 1. _Kiki's Delivery Service_
+
+# Coda
+
+# Tools
+
+This document is a test of the [Scrollama](https://github.com/russellgoldenberg/scrollama) JavaScript library from [Russell Goldenberg](https://twitter.com/codenberg), editor at [The Pudding](https://pudding.cool/). It's implemented here with [Yihui Xie's {rolldown} package](https://github.com/yihui/rolldown) for R.
